@@ -125,6 +125,12 @@ input, select, textarea {
 		color: #787878;
 		font-weight: 400;
 	}
+	/* Apply a common font family to all text */
+		body, h2, h3, p, ul, li, a{
+    font-family: Arial, sans-serif;
+    /* Replace 'Arial' with your desired font or use a web-safe font */
+	}
+
 
 	em, i {
 		font-style: italic;
@@ -2446,7 +2452,7 @@ input, select, textarea {
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font: size 900px;;
 			line-height: 1.5em;
 			margin: 0;
 		}
